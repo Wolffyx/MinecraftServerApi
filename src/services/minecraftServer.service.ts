@@ -49,7 +49,7 @@ class MinecraftServerService {
 	}
 	logging(data: any) {
 		data = data.toString();
-		let regex = new RegExp("\\[([\\d:]+) (\\w+)\\]:? ?([\\w :]+)?");
+		let regex = new RegExp("\\[([\\d:]+) (\\w+)\\]:? ?([\\w -\\[\\]\\\\:]+)?");
 		let buffer = data.match(regex);
 		console.log(data);
 		// @ts-ignore
