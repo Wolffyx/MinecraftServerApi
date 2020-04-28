@@ -1,0 +1,11 @@
+[Unit]
+Description=Minecraft api server
+After=network-online.target
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/root/api
+ExecStart=npm start
+
+[Install]
+WantedBy=multi-user.target
