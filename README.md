@@ -19,7 +19,7 @@ To build and run this app locally you will need a few things:
 # Getting started
 - Clone the repository
 ```
-git clone 1 https://github.com/Microsoft/TypeScript-Node-Starter.git <project_name>
+git clone https://github.com/Wolffyx/MinecraftServerApi.git <project_name>
 ```
 - Install dependencies
 ```
