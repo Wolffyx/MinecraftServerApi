@@ -42,7 +42,7 @@
         "fbgraph": "^1.4.4",
         "helmet": "^3.22.0",
         "http-status-codes": "^1.4.0",
-        "knex": "^0.20.8",
+        "knex": "^2.4.0",
         "lodash": "^4.17.15",
         "lusca": "^1.6.1",
         "mongoose": "^5.7.1",
